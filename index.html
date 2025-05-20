@@ -1,0 +1,71 @@
+<html>
+
+<head>
+<title>HTML: Conceitos e Estrutura Básicas</title>
+</head>
+
+<body>
+
+<h1>HTML: Conceitos e Estrutura Básicas</h1>
+<hr>
+<h2>Índice</h2>
+<ul>
+    <li><a href="#HTML">O que é o HTML></a></li>
+    <li><a href="#Estrutura">Estrutura Básica</a></li>
+    <li><a href="#Tags">Tags</a></li>
+    <li><a href="#Listas">Lista Ordenadas e Não Ordenadas</a></li>
+    <li><a href="#Links">Links</a></li>
+</ul>
+<hr>
+<h2 id="HTML">O que é o HTML</h2>
+<p> HTML (HyperText Markup Language) é a linguagem de marcação fundamental para a criação de páginas web. 
+    Define a estrutura e o significado do conteúdo da página, permitindo a organização e apresentação de texto, 
+    imagens, vídeos, entre outros elementos. Em outras palavras, HTML é o esqueleto de uma página web. </p>
+<hr>
+
+<h2 id="Estrutura">Estrutura Básica</h2>
+<p> A estrutura básica de um documento HTML é composta por três elementos principais: html, head e body. 
+    A tag html compõe todo o arquivo HTML, inclusive todas as outras tags e é essencial para criação de um arquivo em HTML.
+    A tag (head) contém informações sobre o documento como o título da página, enquanto a tag (body) contém o conteúdo visível
+    da página, como textos, imagens e links. Dentro da tag (head), é necessário colocar a tag (title) que define o título
+    da página web. </p>
+<hr>
+
+<h2 id="Tags">Tags</h2>
+<p> As tags HTML são como as etiquetas que marcam o início e o fim de um elemento dentro de uma página web.  
+    Elas indicam ao navegador como o conteúdo deve ser exibido, como títulos, parágrafos, imagens, links, etc. 
+    Existem tags que precisam ser abertas e fechadas, como a tag (p) para parágrafo em que é utilizado o símbolo de menor 
+    (<) seguido do (p) e com símbolo de maior (>), escreve o texto e depois fecha com (<) barra (/) e finaliza com (p) e (>) 
+    no final. Além disso existem tags que não precisam ser abertas e fechadas, como a tag (br) de pular linha na qual só 
+    precisa digitar o símbolo de menor (<) seguido do br e termina com símbolo de maior (>). Veja alguns exemplos das
+    principais tags utilizadas em um arquivo HTML: </p>
+    <img src ="TabelaTagsHtml.png" alt="Texto">
+
+<p> Além disso, existem as atribuições das tags que são informações adicionais nas quais fornecem contexto e 
+    funcionalidades a um elemento HTML. São pares de nome/valor que aparecem dentro da tag de abertura e 
+    influenciam a sua apresentação ou comportamento. Por exemplo a tag (img) onde contém src que diz a fonte da imagem 
+    deve-se colocar entre aspas o link da imagem ou nomedaimagem.extensão, logo isso é um atributo da tag. 
+    Entretanto, esse atributo é obrigatório na tag imagem, mas existem atributos que são opcionais como dar um tamanho a 
+    imagem como atributo width ="100". Nesse caso, o atributo width está definindo a largura da imagem em 100 pixels.
+    Obs: Se você estiver tentando colocar uma imagem direto do seu computador, certifique-se que ela esteja no mesmo 
+    diretório do seu arquivo HTML.</p>
+<hr>
+
+<h2 id="Listas">Listas Ordenadas e Não Ordenadas</h2>
+<p> As listas ordenadas são uma forma de organização de listas em ordem numérica em que é utilizado a tag (<)ol(>) 
+    (<)(/)ol(>) para criação da lista e em cada tópico é usado a tag (<)li(>) (<)(/)li(>). Já as listas não ordenadas 
+    são organizadas em tópicos, como por exemplo o índice dessa página web. A única diferença em sintaxe é que na lista 
+    não ordenada é utilizado a tag (<)ul(>) (<)(/)ul(>) em vez da tag ol. Veja a diferença:</p>
+    <img src="https://cristianomaiablog.wordpress.com/wp-content/uploads/2016/01/lista.jpg?w=800&h=948" width = "250">
+    <img src ="https://cristianomaiablog.wordpress.com/wp-content/uploads/2016/01/listan.jpg?w=605" width = "227">
+<hr>
+
+<h2 id="Links">Links</h2>
+<p> Os links são elementos que permitem aos usuários navegarem entre diferentes páginas ou recursos de uma página da web. 
+    Eles são essenciais para a estrutura e navegação de qualquer site. os links são criados com a tag (a), que significa 
+    "âncora". A tag (a) define um hiperlink, que é uma ligação entre uma página web e outra, ou mesmo dentro da mesma 
+    página. Essa tag vem acompanhada do atributo href="endereço(URL)". Veja sua formatação:</p>
+    <img src="Links.png" alt="Texto">
+</body>
+
+</html>
